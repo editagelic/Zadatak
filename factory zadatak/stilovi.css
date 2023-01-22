@@ -1,0 +1,273 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
+
+
+.sliderall{
+
+  position: relative;
+  width: 1920px;
+  height: 730px;
+
+background: #FFFFFF;
+}
+.column{
+
+
+    position: absolute;
+    width: 941px;
+    height: 730px;
+    right: 489px;
+    top: calc(50% - 730px/2);
+
+
+
+}
+.footer{
+  position: absolute;
+  width: 941px;
+  height: 100px;
+  right: 489px;
+  bottom: 0px;
+
+}
+.footer .box3{
+    position: absolute;
+    width: 941px;
+    height: 100px;
+    left: 0px;
+    top: 100px;
+
+    background: #DDDDDD;
+    border-radius: 0px 0px 5px 5px;
+    
+}
+.footer .box3 .skup1{
+
+    position: absolute;
+    width: 245px;
+    height: 0px;
+    left: 81px;
+    top: 42px;
+
+    
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+      display: flex;
+      align-items: flex-end;
+
+      color: #FFFFFF;
+}
+
+
+
+.header{
+
+    position: absolute;
+    width: 941px;
+    height: 100px;
+    right: 489px;
+    top: 0px;
+
+}   
+
+.header .box1 {
+    position: absolute;
+    width: 301px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: #DDDDDD;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.header .box2 {
+    position: absolute;
+    width: 621px;
+    height: 100px;
+    left: 320px;
+    top: 0px;
+    
+    background: #DDDDDD;
+    border-radius: 0px 0px 5px 5px;
+}
+.header .box2 .skup2 {
+
+    position: absolute;
+    width: 245px;
+    height: 2px;
+    left: 80px;
+    top: 40px;
+
+    font-family: 'HelveticaNeue';
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+
+}
+
+.rightCopy{
+    position: absolute;
+    width: 301px;
+    height: 296px;
+    right: 489px;
+    top: 160px;
+}
+
+.rightCopy .tx1{
+    position: absolute;
+    width: 300.93px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:bolder;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.2px;
+
+    color: #134880;
+}
+
+.rightCopy .tx2{
+    position: absolute;
+    width: 300.93px;
+    height: 156px;
+    left: 0px;
+    top: 140px;
+
+    font-family: 'SourceSansPro';
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.2px;
+
+    color: #484A4C;
+}
+
+
+
+
+#slider {
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    width: 1230px;
+    height: 200px;
+    left: -120px;
+    top: 160px;
+    justify-content: space-between;
+
+  
+    
+  }
+  #slider img{
+    border-radius: 5px;
+    margin-left: 10px;
+    
+  }
+   #slider2 img{
+    border-radius: 5px;
+    margin-left: 10px;
+    
+  }
+
+
+
+  #slider2 {
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    width: 1080px;
+    height: 200px;
+    left: -130px;
+    bottom: 160px;
+  }
+   
+  #slider img {
+    width: 50%;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  
+
+  .arrows{
+    position: absolute;
+    width: 60px;
+    height: 130px;
+    right: 810px;
+    bottom: 230px;
+
+  }
+ .arrows #arrow-left{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+
+  #arrow-right{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 0px;
+    top: 70px;
+
+    border: 1px solid #134880;
+    border-radius: 5px;
+
+
+
+
+  }
+  .arrows #arrow-left .position{
+    position: absolute;
+    width: 9.98px;
+    height: 16px;
+    left: 23px;
+    top: 22px;
+  }
+
+  .arrows #arrow-right .position1{
+
+    position: absolute;
+    width: 9.98px;
+    height: 16px;
+    left: 25px;
+    top: 22px;
+
+  }
+  
+  #image1, #image2, #image3, #image4, #image5 , #image6, #image7, #image8, #image9 {
+    position:relative;
+    left:0;
+ }
+
+
+
+
+  
